@@ -1,10 +1,10 @@
 .App {
   text-align: center;
+  background: url("./images/photo-1554034483-04fda0d3507b.avif") no-repeat center center fixed;
+  background-size: cover;
 }
 
 .Navbar {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
