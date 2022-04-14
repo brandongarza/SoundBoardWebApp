@@ -1,0 +1,2 @@
+// link for social media dependency 
+https://www.npmjs.com/package/react-social-login-buttons
