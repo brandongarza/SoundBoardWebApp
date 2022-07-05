@@ -1,5 +1,4 @@
 import React from 'react'
-import {GoogleLoginButton} from "react-social-login-buttons";
 import Button from './Button';
 
 
