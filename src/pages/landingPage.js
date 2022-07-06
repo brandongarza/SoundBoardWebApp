@@ -12,7 +12,7 @@ const LandingPage=(props)=>{
         <div>
             <h1>Sound Board</h1>
             <div>
-                <button type = "button" onClick={skipButtonHandler} > SKip </button>
+                <button type = "button" onClick={skipButtonHandler} > Skip </button>
                 <Button type = "button"> Login</Button>
             </div>
         </div>
