@@ -1,18 +1,23 @@
 import React from 'react'
-import Button from './Button';
-import {GoogleLoginButton} from "react-social-login-buttons";
 
 const Login=(props)=>{
     return(
-        <div>
-            <navbar>
 
-            </navbar>
-            <GoogleLoginButton onClick={() => alert("Hello")} />
+        <div className = "loginForm">
+            
             <form>
-                <div>
-                    <label>Username: </label> 
+                <div className='sign-in'> 
+                    <label> USERNAME: </label>
+                    <input type= "text" name = "u-name" required />
+                </div>
 
+                <div className='sign-in'> 
+                    <label> PASSWORD: </label>
+                    <input type= "text" name = "password" required />
+                </div>
+
+                <div className = "submit-button">
+                    <button type="submit" value="Submit">Submit</button>
                 </div>
             </form>
        </div>
