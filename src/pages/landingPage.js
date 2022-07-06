@@ -1,6 +1,6 @@
 import React from 'react'
-import {GoogleLoginButton} from "react-social-login-buttons";
-import Button from './Button';
+// import {GoogleLoginButton} from "react-social-login-buttons";
+// import Button from './Button';
 
 
 const LandingPage=(props)=>{
@@ -14,7 +14,7 @@ const LandingPage=(props)=>{
             <h1>Sound Board</h1>
             <div>
                 <button type = "button" onClick={skipButtonHandler} > SKip </button>
-                <Button type = "button"> Login</Button>
+                <button type = "button"> Login</button>
             </div>
         </div>
     );
